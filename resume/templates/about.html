@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content1 %}
+<div class="row my-5">
+   <div class="col-4 d-flex justify-content-center align-items-center">
+        <img src="{% static 'images/im.jpeg'%}" alt="image" class="about_image">
+   </div>
+   
+   <div class="col-7 text-left text-light">
+       <h2> Hello ! </h2>
+       <p class="fs-5">
+        I am a skilled Data Analyst with expertise in data manipulation, 
+        predictive modeling, and machine learning. Proficient in 
+        Python libraries like Pandas, NumPy, Scikit-learn, and 
+        TensorFlow, I specialize in extracting valuable insights 
+        and building data-driven solutions. My experience extends 
+        to SQL and MySQL, including advanced SQL techniques for 
+        handling and analyzing complex datasets efficiently. 
+       </p>
+       <p class="fs-5">
+        With a background as a QA Engineer, I bring a 
+        quality-focused perspective to data analysis, 
+        ensuring accuracy and reliability in every project. 
+        My passion lies in solving complex problems, collaborating 
+        with teams, and turning raw data into actionable insights 
+        that drive success.
+       </p>
+
+    </div>
+   <div class="row my-2">
+       <h2 class="text-center" style="color: #4fff4f;"> Data Analyst</h2>
+
+       <div class = "d-flex justify-content-around align-items-center">
+        <img 
+        src="{% static 'images/python.jpeg'%}" 
+        width="70" 
+        height="70"
+        alt="python logo"
+        class="img-fluid"/>
+        
+        <img 
+        src="{% static 'images/testing.jpeg'%}" 
+        width="70" 
+        height="70"
+        alt = "testing logo" 
+        class="img-fluid"/>
+   
+   
+        <img 
+        src="{% static 'images/matplotlip.jpeg'%}" 
+        width="70" 
+        height="70"
+        alt = "matplotlip logo" 
+        class="img-fluid"/>
+       
+  
+        <img 
+        src="{% static 'images/pandas.jpeg'%}" 
+        width="70" 
+        height="70"
+        alt = "pandas logo" 
+        class="img-fluid"/>
+       
+    
+        <img 
+        src="{% static 'images/numpy.jpeg'%}" 
+        width="70" 
+        height="70"
+        alt = "numpy logo" 
+        class="img-fluid"/>
+    
+        <img 
+        src="{% static 'images/seaborn.jpeg'%}" 
+        width="70" 
+        height="70"
+        alt = "seaborn logo" 
+        class="img-fluid"/>
+       
+  
+        <img 
+        src="{% static 'images/sklearn.jpeg'%}" 
+        width="70" 
+        height="70"
+        alt = "sklearn logo"
+        class="img-fluid"/>
+
+      </div>
+       
+    </div>
+       
+
+</div>
+
+
+ 
+
+{% endblock content1 %}

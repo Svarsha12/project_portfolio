@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content1 %}
+<div class="row my-2">
+    <div class="col-4 text-center my-5 text-light">
+        <h1>Stay connected</h1>
+        <!--<h3>varshasubedibt@gmail.com</h3>-->
+        <div class="col-12 d-flex justify-content-center align-items-center">
+            <a href="https://www.linkedin.com/in/varsha-sharma-56a927236/" target="_blank">
+                <img src="{% static 'images/linkedin.jpeg' %}" alt="LinkedIn" width="50" height="50" class="social_link">
+            </a>
+        </div>
+    </div>
+    <div class="col-5 offset mt-3">
+        <div class="container form-container">
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock content1 %}
+
