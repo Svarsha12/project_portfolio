@@ -21,7 +21,7 @@ python manage.py dbshell
 SELECT * FROM resume_contact
 ```
 
-**Check my websiter**
+**Check my website**
 
 ```
 https://varrain.pythonanywhere.com
