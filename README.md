@@ -21,7 +21,7 @@ python manage.py dbshell
 ```
 SELECT * FROM resume_contact
 ```
-** Deployed and hosted my portfolio project on PythonAnywhere.**
+**Deployed and hosted my portfolio project on PythonAnywhere**
 
 **Check my website**
 
