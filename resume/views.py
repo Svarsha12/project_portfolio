@@ -11,15 +11,18 @@ def about(request):
 
 def projects(request):
     projects_show=[
+        
         {
-            'title':'fifa_worldcup',
-            'path': 'fifa_world_cup.jpeg',
-            'link': 'https://github.com/Svarsha12/fifa_worldcup'
+            'title':'QA Automated retail analysis',
+            #'path': 'fifa_world_cup.jpeg',
+            'link': 'https://github.com/Svarsha12/qa-automated-retail-analysis.git',
+            'description': 'This project demonstrates a complete data pipeline integrating QA automation, data governance, analytics, and interactive dashboards using a realistic retail sales dataset. It showcases how to ensure data quality, perform validation using Pytest, document metadata, and visualize both business and QA metrics using Tableau.'
         },
         {
-            'title':'cardiovascular-disease',
-            'path': 'heart-disease.jpeg',
-            'link': 'https://github.com/Svarsha12/cardiovascular-disease/tree/main'
+            'title':'Book to Scrape Project-BDD Automation',
+            #'path': 'heart-disease.jpeg',
+            'link': 'https://github.com/Svarsha12/scraping_automation_project.git',
+            'description': 'A Python-based automation project that combines Selenium, BDD with Behave, and BeautifulSoup to scrape data from the Books to Scrape website, specifically targeting the Music category. The scraped data is structured into a Pandas DataFrame and exported to a CSV file for further analysis.'
         }
     
   
